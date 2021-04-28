@@ -10,4 +10,5 @@ ddp - move line down, deletes, paste downwards
 {i}gt - go to i-th tab
 :noh - stops the search highlight
 / - starts searching for stuff
+:tabnew - open a new tab
 
