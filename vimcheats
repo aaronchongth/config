@@ -1,0 +1,13 @@
+ddkP - move line up, deletes, move up, paste upwards
+ddp - move line down, deletes, paste downwards
+:!mkdir -p %:h - create file and directory if the vim file does not exist
+:Explore - head to explore mode
+:tabe <file> - opens a tab to edit a file
+:tabn - next tab
+:tabp - prev tab
+:gt - go to next tab
+:gT - go to previous tab
+{i}gt - go to i-th tab
+:noh - stops the search highlight
+/ - starts searching for stuff
+
