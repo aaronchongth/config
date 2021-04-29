@@ -105,7 +105,8 @@ let g:solarized_termtrans=1
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Declare the list of plugins.
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'BurntSushi/ripgrep'
 Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdtree'
@@ -114,4 +115,8 @@ Plug 'jiangmiao/auto-pairs'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+" Workflow
+nnoremap <C-p> :Files<Cr>
+nnoremap <C-g> :Rg<Cr>
 

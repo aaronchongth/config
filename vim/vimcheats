@@ -11,4 +11,6 @@ ddp - move line down, deletes, paste downwards
 :noh - stops the search highlight
 / - starts searching for stuff
 :tabnew - open a new tab
+:Files - start searching for file names
+:Ag - uses silversearcher in vim to search for line through all files
 
