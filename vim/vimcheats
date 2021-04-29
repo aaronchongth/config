@@ -13,4 +13,6 @@ ddp - move line down, deletes, paste downwards
 :tabnew - open a new tab
 :Files - start searching for file names
 :Ag - uses silversearcher in vim to search for line through all files
+Ctrl-V- visual mode
+comment multiple lines - Ctrl-V -> arrow to bottom -> I -> add characters before -> ESC
 
