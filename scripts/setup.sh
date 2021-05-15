@@ -3,24 +3,24 @@
 sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install \
-  gcc \
-  cmake \
-  make \
-  wget \
   build-essentials \
-  vim \
-  git \
-  unzip \
-  snapd \
-  openvpn \
-  openssh-client \
-  openssh-server \
-  python3-vcstool \
-  libeigen3-dev \
-  htop \
+  cmake \
+  curl \
   ffmpeg \
-  silversearcher-ag \
+  gcc \
+  git \
+  htop \
+  libeigen3-dev \
+  make \
+  openssh* \
+  openvpn \
+  python3-vcstool \
   ripgrep \
+  silversearcher-ag \
+  snapd \
+  unzip \
+  vim \
+  wget \
   -y
 
 # Setup ccache

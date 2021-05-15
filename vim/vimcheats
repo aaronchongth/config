@@ -15,4 +15,6 @@ ddp - move line down, deletes, paste downwards
 :Ag - uses silversearcher in vim to search for line through all files
 Ctrl-V- visual mode
 comment multiple lines - Ctrl-V -> arrow to bottom -> I -> add characters before -> ESC
+:s/a/b/gc - search this line for a, replace with b, c is for asking consent
+:%s/a/b/gc - search entire file for replacement and asking consent
 
