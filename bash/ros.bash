@@ -14,6 +14,11 @@ function stws
 alias cb="colcon build"
 alias cbpu="colcon build --packages-up-to"
 alias cbps="colcon build --packages-select"
+alias cbmipu="colcon build --merge-install --packages-up-to"
+alias cbmips="colcon build --merge-install --packages-select"
+alias ct="colcon test"
+alias ctps="colcon test --packages-select"
+alias ctmips="colcon test --merge-install --packages-select"
 
 function delb
 {
