@@ -52,6 +52,7 @@ alias r1n="source /opt/ros/noetic/setup.bash"
 alias r2d="source /opt/ros/dashing/setup.bash"
 alias r2e="source /opt/ros/eloquent/setup.bash"
 alias r2f="source /opt/ros/foxy/setup.bash"
+alias r2g="source /opt/ros/galactic/setup.bash"
 alias rr="source /opt/ros/rolling/setup.bash"
 
 #==============================================================================
