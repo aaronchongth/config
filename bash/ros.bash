@@ -87,5 +87,14 @@ alias tb3w="export TURTLEBOT3_MODEL='waffle'"
 # Simulation
 alias killgazebo="pkill -9 gazebo && pkill -9 gzserver && pkill -9 gzclient"
 
-#==============================================================================
+#===============================================================================
+# RMF
+alias rmf="source ~/workspaces/rmf/install/setup.bash"
+alias get_rmf_repos="wget https://raw.githubusercontent.com/open-rmf/rmf/main/rmf.repos"
+alias run_dashboard="rmf && npm run start:react"
+alias run_api_server="rmf && RMF_SERVER_USE_SIM_TIME=true python3 -m pipenv run python -m api_server"
 
+#==============================================================================
+# sdformat
+alias get_sdf12_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat12.yaml"
+alias get_sdf13_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat13.yaml"
