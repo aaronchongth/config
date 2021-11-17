@@ -54,7 +54,8 @@ alias r2d="source /opt/ros/dashing/setup.bash"
 alias r2e="source /opt/ros/eloquent/setup.bash"
 alias r2f="source /opt/ros/foxy/setup.bash"
 alias r2g="source /opt/ros/galactic/setup.bash"
-alias r2r="source ~/workspaces/ros2_rolling/install/setup.bash"
+alias r2r="source /opt/ros/rolling/setup.bash"
+alias r2rs="source ~/workspaces/ros2_rolling/install/setup.bash"
 
 #==============================================================================
 # rosdep
