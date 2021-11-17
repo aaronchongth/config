@@ -54,7 +54,7 @@ alias r2d="source /opt/ros/dashing/setup.bash"
 alias r2e="source /opt/ros/eloquent/setup.bash"
 alias r2f="source /opt/ros/foxy/setup.bash"
 alias r2g="source /opt/ros/galactic/setup.bash"
-alias rr="source /opt/ros/rolling/setup.bash"
+alias r2r="source ~/workspaces/ros2_rolling/install/setup.bash"
 
 #==============================================================================
 # rosdep
@@ -93,6 +93,12 @@ alias rmf="source ~/workspaces/rmf/install/setup.bash"
 alias get_rmf_repos="wget https://raw.githubusercontent.com/open-rmf/rmf/main/rmf.repos"
 alias run_dashboard="rmf && npm run start:react"
 alias run_api_server="rmf && RMF_SERVER_USE_SIM_TIME=true python3 -m pipenv run python -m api_server"
+
+function uncrustify
+{
+  source /opt/ros/galactic/setup.bash
+  ament_uncrustify $1 -c ~/workspaces/repos/rmf_utils/rmf_utils/test/format/rmf_code_style.cfg --linelength 80
+}
 
 #==============================================================================
 # sdformat
