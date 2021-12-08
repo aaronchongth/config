@@ -16,3 +16,8 @@ function gitpullr
 export FZF_DEFAULT_OPTS='-m --height 50% --border'
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 
+#==============================================================================
+# Wireguard
+
+alias wg0_up='sudo wg-quick up wg0'
+alias wg0_down='sudo wg-quick down wg0'
