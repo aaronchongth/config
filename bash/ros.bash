@@ -103,5 +103,6 @@ function uncrustify
 
 #==============================================================================
 # sdformat
+alias igncollections="git clone https://github.com/ignition-tooling/gazebodistro"
 alias get_sdf12_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat12.yaml"
 alias get_sdf13_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat13.yaml"
