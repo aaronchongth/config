@@ -20,6 +20,7 @@ alias cbmips="colcon build --merge-install --packages-select"
 alias ct="colcon test"
 alias ctps="colcon test --packages-select"
 alias ctmips="colcon test --merge-install --packages-select"
+alias ctr="colcon test-result"
 
 function delb
 {
@@ -106,3 +107,15 @@ function uncrustify
 alias igncollections="git clone https://github.com/ignition-tooling/gazebodistro"
 alias get_sdf12_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat12.yaml"
 alias get_sdf13_repos="wget https://raw.githubusercontent.com/ignition-tooling/gazebodistro/master/sdformat13.yaml"
+
+#==============================================================================
+# drake
+
+#=== To start a drake virtualenv ===
+# mkdir -p env
+# tar -xvzf drake.tar.gz -C env --strip-components=1
+# python3 -m virtualenv -p python3 env --system-site-packages
+# source env/bin/activate
+
+# === To install reqs ===
+# env/share/drake/setup/install_prereqs
