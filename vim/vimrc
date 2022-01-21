@@ -109,6 +109,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdtree'
+Plug 'leafgarland/typescript-vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
