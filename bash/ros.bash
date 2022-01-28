@@ -60,7 +60,7 @@ alias r2rs="source ~/workspaces/ros2_rolling/install/setup.bash"
 
 #==============================================================================
 # rosdep
-alias rosdep_install_call="rosdep install --from-paths src --ignore-src -yr"
+alias rosdep_install_call="rosdep install --from-paths src --ignore-src -y"
 
 function rosdep_install
 {
