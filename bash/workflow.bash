@@ -21,3 +21,18 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 
 alias wg0_up='sudo wg-quick up wg0'
 alias wg0_down='sudo wg-quick down wg0'
+
+#==============================================================================
+# Environment variables
+
+function add_to_ld
+{
+  # $1 path to be added
+  export LD_LIBRARY_PATH="$(realpath $1)${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
+}
+
+function add_to_path
+{
+  # $1 path to be added
+  export PATH="$(realpath $1)${PATH:+:${PATH}}"
+}
