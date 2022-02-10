@@ -21,3 +21,5 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 
 alias wg0_up='sudo wg-quick up wg0'
 alias wg0_down='sudo wg-quick down wg0'
+alias wg0_up_persistent='sudo systemctl enable wg-quick@wg0'
+alias wg0_down_persistent='sudo systemctl disable wg-quick@wg0'
