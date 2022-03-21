@@ -23,6 +23,16 @@ sudo apt-get install \
   wget \
   -y
 
+# Setup Snap
+sudo snap install \
+  todoist \
+  notion-snap \
+  chromium \
+  telegram-desktop \
+  whatsie \
+  keepassxc \
+  vlc 
+
 # Setup ccache
 sudo apt install ccache -y
 sudo /usr/sbin/update-ccache-symlinks

@@ -107,7 +107,6 @@ Plug 'BurntSushi/ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
-Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'leafgarland/typescript-vim'
 
