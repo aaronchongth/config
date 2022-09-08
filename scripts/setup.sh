@@ -3,35 +3,39 @@
 sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install \
-  build-essentials \
+  build-essential \
+  clang \
   cmake \
   curl \
   ffmpeg \
   gcc \
   git \
+  gimp \
   htop \
   libeigen3-dev \
   make \
+  meld \
   openssh* \
-  openvpn \
-  python3-vcstool \
+  openvpn* \
+  python3-vcstools \
   ripgrep \
   silversearcher-ag \
   snapd \
+  terminator \
   unzip \
   vim \
+  vlc \
   wget \
   -y
 
 # Setup Snap
 sudo snap install \
-  todoist \
-  notion-snap \
-  chromium \
-  telegram-desktop \
-  whatsie \
   keepassxc \
-  vlc 
+  lxd \
+  notion-snap \
+  telegram-desktop \
+  todoist \
+  whatsie
 
 # Setup ccache
 sudo apt install ccache -y
