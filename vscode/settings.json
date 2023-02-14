@@ -1,0 +1,15 @@
+{
+    "remote.SSH.enableRemoteCommand": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [80],
+    "editor.fontFamily": "Ubuntu Mono",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[cpp]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+}
