@@ -36,3 +36,12 @@ function add_to_path
   # $1 path to be added
   export PATH="$(realpath $1)${PATH:+:${PATH}}"
 }
+
+#==============================================================================
+# tmux
+
+alias tnew="tmux new -s"
+alias tatt="tmux attach -t"
+alias tlist="tmux list-session"
+alias tshowb="tmux show-buffer"
+alias tsaveb="tmux save-buffer "

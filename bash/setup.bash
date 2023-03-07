@@ -10,7 +10,3 @@ function add_to_bashrc
     echo "source $s" >> ~/.bashrc
   done
 }
-
-alias tnew="tmux new -s"
-alias tatt="tmux attach -t"
-alias tlist="tmux list-session"
