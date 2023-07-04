@@ -11,8 +11,8 @@ body:
   - type: checkboxes
     id: checked-issues
     attributes:
-      label: Before proceeding, is there an existing issue or [discussion](https://github.com/aaronchongth) for this?
-      description: Please search to see if an issue or discussion already exists for the bug you encountered.
+      label: Before proceeding, is there an existing issue or discussion for this?
+      description: Please search to see if an issue or [discussion](https://github.com/aaronchongth) already exists for the bug you encountered.
       options:
         - label: I have done a search for similar issues and discussions.
           required: true
