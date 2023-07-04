@@ -12,9 +12,8 @@ body:
     id: checked-issues
     attributes:
       label: Before proceeding, is there an existing issue or discussion for this?
-      description: Please search to see if an issue or [discussion](https://github.com/aaronchongth) already exists for the bug you encountered.
       options:
-        - label: I have done a search for similar issues and discussions.
+        - label: I have done a search for similar [issues](/issues) and [discussions](https://github.com/aaronchongth).
           required: true
 
   - type: input
