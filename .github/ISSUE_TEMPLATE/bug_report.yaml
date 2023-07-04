@@ -13,7 +13,7 @@ body:
     attributes:
       label: Before proceeding, is there an existing issue or discussion for this?
       options:
-        - label: I have done a search for similar [issues](?q=is%3Aissue) and [discussions](https://github.com/aaronchongth).
+        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://github.com/aaronchongth).
           required: true
 
   - type: input
