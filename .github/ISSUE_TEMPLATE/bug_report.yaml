@@ -6,7 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report! Before proceeding, please ensure that this is not a duplicated report.
+
+  - type: checkboxes
+    id: checked-issues
+    attributes:
+      options:
+        - label: I have done a search for similar issues and [discussions](https://github.com/aaronchongth).
+          required: true
 
   - type: input
     id: os
