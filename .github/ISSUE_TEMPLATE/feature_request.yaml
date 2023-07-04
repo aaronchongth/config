@@ -1,0 +1,55 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[Feature request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For general questions and design discussion, please use the Discussions page: https://github.com/open-rmf/rmf/discussions
+        Not sure if this is the right repository? Open an issue on https://github.com/open-rmf/rmf
+        For bug reports, please fill out the information below.
+        Be as detailed as possible.
+
+  - type: checkboxes
+    id: checked-issues
+    attributes:
+      label: Before proceeding, is there an existing issue or discussion for this?
+      options:
+        - label: I have done a search for similar [issues](.?q=type%3Aissue) and [discussions](https://github.com/aaronchongth).
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Describe in a few sentences what the feature consists of and what problem it will solve.
+        Include why you think the feature is necessary, who else will benefit, and why they will benefit.
+        e.g. "When I am ... I want to be able to ... so that I can ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-considerations
+    attributes:
+      label: Description
+      description: Any information you can provide on how the feature could be implemented, and pros and cons of different implementation approaches.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Describe alternative solutions to the problem you want to solve with this feature that you have considered, including workarounds and alternative features.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Add any other context or screenshots, sketches, etc. about the feature request here.
+    validations:
+      required: false
