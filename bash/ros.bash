@@ -62,6 +62,7 @@ alias r2e="source /opt/ros/eloquent/setup.bash"
 alias r2f="source /opt/ros/foxy/setup.bash"
 alias r2g="source /opt/ros/galactic/setup.bash"
 alias r2h="source /opt/ros/humble/setup.bash"
+alias r2i="source /opt/ros/iron/setup.bash"
 alias r2r="source /opt/ros/rolling/setup.bash"
 alias r2rs="source ~/workspaces/ros2_rolling/install/setup.bash"
 
