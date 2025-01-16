@@ -27,6 +27,8 @@ alias ctps="colcon test --packages-select"
 alias ctmips="colcon test --merge-install --packages-select"
 alias ctmipa="colcon test --merge-install --packages-above"
 alias ctr="colcon test-result"
+alias pnpm16="pnpm env use --global 16"
+alias pnpm20="pnpm env use --global 20"
 
 function delb
 {
@@ -69,7 +71,7 @@ alias r2rs="source ~/workspaces/ros2_rolling/install/setup.bash"
 
 #==============================================================================
 # rosdep
-alias rosdep_install_call="rosdep install --from-paths src --ignore-src -y"
+alias rosdep_install_call="rosdep install --from-paths src --ignore-src -ry"
 
 function rosdep_install
 {
@@ -81,6 +83,7 @@ function rosdep_install
 # Middleware
 alias rmwc="export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
 alias rmwf="export RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+alias rmwz="export RMW_IMPLEMENTATION=rmw_zenoh_cpp"
 export ROS_DOMAIN_ID=47
 
 function ros2domain {
