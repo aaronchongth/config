@@ -6,6 +6,10 @@ Setting up,
 # Deps
 sudo apt install git curl
 
+# Install oh-my-bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+source ~/.bashrc
+
 # Setup
 git clone https://github.com/aaronchongth/config ~/.config/aaron
 
@@ -21,4 +25,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # Install plugins with :PlugInstall
 ```
-
