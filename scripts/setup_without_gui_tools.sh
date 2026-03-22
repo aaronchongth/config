@@ -6,6 +6,7 @@ sudo apt-get install \
   build-essential \
   clang \
   cmake \
+  lld \
   curl \
   ffmpeg \
   gcc \

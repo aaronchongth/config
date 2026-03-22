@@ -5,6 +5,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt-get install \
   build-essential \
   clang \
+  lld \
   cmake \
   curl \
   ffmpeg \
