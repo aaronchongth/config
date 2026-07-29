@@ -34,6 +34,7 @@ alias ctmipa="colcon test --merge-install --packages-above"
 alias ctr="colcon test-result"
 alias pnpm16="pnpm env use --global 16"
 alias pnpm20="pnpm env use --global 20"
+alias rdi0="export ROS_DOMAIN_ID=0"
 
 function delb
 {
